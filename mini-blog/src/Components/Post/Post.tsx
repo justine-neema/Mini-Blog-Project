@@ -6,11 +6,8 @@ interface PostProps {
 }
 
 function Post({ post }: PostProps) {
-    // first 100 characters of content
-    const preview = 
-      post.content.length > 100 
-      ? post.content.slice(0, 100) + "..." 
-      : post.content;
+    // first few characters of content
+const preview = post.content.split(" ").slice(0, 8).join(" ") + "...";
 
     //   Formating the date properly
     const formattedDate = new Date(post.datePosted).toLocaleDateString("en-US",{
