@@ -11,13 +11,13 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.post__title {
+.post_title {
   margin: 0 0 0.5rem 0;
   color: #0f172a;
   font-size: 1.25rem;
 }
 
-.post__meta {
+.post_meta {
   display: flex;
   justify-content: space-between;
   font-size: 0.85rem;
@@ -25,11 +25,11 @@
   margin-bottom: 0.75rem;
 }
 
-.post__author {
+.post_author {
   font-weight: 500;
 }
 
-.post__preview {
+.post_preview {
   margin: 0;
   color: #334155;
   line-height: 1.5;

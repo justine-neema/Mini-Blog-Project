@@ -54,15 +54,15 @@ function Post({ post }: PostProps) {
 
   return (
     <article className="post" style={articleStyle}>       
-      <h3 className="post__title">
+      <h3 className="post_title">
         {post.title}
         {isNew && <span style={badgeStyle}>NEW!</span>}       
       </h3>
-      <div className="post__meta">
-        <span className="post__author">By {post.author}</span>
-        <span className="post__date">{formattedDate}</span>
+      <div className="post_meta">
+        <span className="post_author">By {post.author}</span>
+        <span className="post_date">{formattedDate}</span>
       </div>
-      <p className="post__preview">{preview}</p>           
+      <p className="post_preview">{preview}</p>           
     </article>
   );
 }
