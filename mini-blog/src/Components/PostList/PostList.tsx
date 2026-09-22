@@ -9,7 +9,7 @@ const samplePosts: PostType[] = [
         title: "Understanding React Components",
         author: "Chinua Achebe",
         content: "React components are the building blocks of any React application. They allow you to split the UI into independent, reusable pieces, and think about each piece in isolation.",
-        datePosted: "2026-09-15",
+        datePosted: "2026-09-22T10:00:00Z",
     },
 
     {
