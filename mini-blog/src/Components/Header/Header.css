@@ -7,25 +7,26 @@
   color: #f1f5f9;
 }
 
-.header__logo {
+.header_logo {
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 1px;
   margin: 0;
 }
 
-.header__nav {
+.header_nav {
   display: flex;
   gap: 1rem;
 }
 
-.header__link {
-  color: #38bdf8;
+.header_link {
+  color: #ffffff;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
+  text-decoration: underline;
 }
 
-.header__link:hover {
-  color: #7dd3fc;
+.header_link:hover {
+  color: #e93528;
 }
