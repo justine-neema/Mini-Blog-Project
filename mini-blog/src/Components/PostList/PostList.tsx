@@ -9,7 +9,7 @@ const samplePosts: PostType[] = [
         title: "Understanding React Components",
         author: "Chinua Achebe",
         content: "React components are the building blocks of any React application. They allow you to split the UI into independent, reusable pieces, and think about each piece in isolation.",
-        datePosted: "2026-09-22T10:00:00Z",
+        datePosted: new Date(),
     },
 
     {
@@ -17,7 +17,7 @@ const samplePosts: PostType[] = [
         title: "The beauty of Typescript",
         author: "Acele kady",
         content: "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
-        datePosted: "2025-09-09",
+        datePosted:new Date( "2025-09-09T12:08:00"),
 
     },
 
@@ -27,7 +27,7 @@ const samplePosts: PostType[] = [
     author: "Sarah Chen",
     content:
       "Both approaches have trade-offs. Traditional CSS is simpler and faster to load, while CSS-in-JS offers scoped styles and dynamic theming...",
-    datePosted: "2025-01-12",
+    datePosted: new Date( "2025-01-12T12:08:00"),
   },
 ];
 
