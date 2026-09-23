@@ -7,7 +7,7 @@ interface PostProps {
   post: PostType;
 }
 // Is the post within 24 hours?
-const isNewPost = (datePosted: string): boolean => {
+const isNewPost = (datePosted: Date): boolean => {
   const posted = new Date(datePosted).getTime();
   const now = Date.now();
   const ONE_DAY_MS = 24 * 60 * 60 * 1000;
@@ -56,7 +56,7 @@ function Post({ post }: PostProps) {
     <article className="post" style={articleStyle}>       
       <h3 className="post_title">
         {post.title}
-        {isNew && <span style={badgeStyle}>NEW!</span>}       
+        {isNew && <span style={badgeStyle}>NEW POST!</span>}       
       </h3>
       <div className="post_meta">
         <span className="post_author">By {post.author}</span>
